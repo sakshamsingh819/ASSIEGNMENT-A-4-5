@@ -1,0 +1,38 @@
+{
+    "best_model_name": "Logistic_Regression",
+    "feature_names": [
+        "num_commits",
+        "files_changed",
+        "lines_added",
+        "lines_deleted",
+        "churn_total",
+        "src_churn",
+        "test_churn",
+        "test_to_src_ratio",
+        "time_since_last_build_min",
+        "committer_experience",
+        "committer_recent_failure_rate",
+        "team_size",
+        "consecutive_failures",
+        "churn_per_file",
+        "is_pull_request",
+        "prev_build_status",
+        "git_branch_hotfix",
+        "git_branch_main",
+        "git_branch_refactor",
+        "git_branch_release"
+    ],
+    "metrics": {
+        "Model": "Logistic_Regression",
+        "Accuracy": 0.7492,
+        "Balanced_Accuracy": 0.6793,
+        "Precision": 0.304,
+        "Recall": 0.5814,
+        "F1_Score": 0.3992,
+        "ROC_AUC": 0.736,
+        "PR_AUC": 0.3542
+    },
+    "split_strategy": "temporal",
+    "num_train_samples": 4800,
+    "num_test_samples": 1200
+}
